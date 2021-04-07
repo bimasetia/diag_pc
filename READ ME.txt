@@ -1,0 +1,10 @@
+//INSTALASI SOURCE CODE
+
+-Ekstrak source code					
+-Jika menggunakan xampp simpan folder diagnosa-pc	
+ ke dalam folder htdocs					
+-Buat database baru dengan nama namadatabase db_kerusakan
+-import file db_kerusakan.sql yang ada di folder db 	
+ ke dalam database yang dibuat tadi			
+-Buka browser lalu jalankan dengan menuliskan 		
+ localhost/diagnosa-pc				
