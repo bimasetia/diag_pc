@@ -11,6 +11,9 @@
     <nav class="navbar navbar-light bg-light">
       <a class="navbar-brand" href="index.php">
         <img src="#"  class="d-inline-block align-top" alt="">HOME
+        <a href="gejala.php">Gejala</a>
+        <a href="">Kerusakan</a>
+        <a href="">Aturan</a>
       </a>
       <h5>Diagnosa Kerusakan Hardware Komputer | Metode Forward Chaining</h5>
     </nav>

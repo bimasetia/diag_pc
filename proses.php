@@ -32,7 +32,7 @@ if(isset($_POST['submit'])){
 	$status=false;
 //mencocokan gejala yang di inputkan user dengan rule yang ada
 	for ($i=0; $i <sizeof($rule); $i++) {
-		$result=($rule_input==$rule[$i]);
+		$result=($rule_input==$rule[$i]); // need fix
 		if ($result) {
 			$status=true;
 		}
