@@ -1,5 +1,6 @@
-Sistem Pakar untuk Diagnosa kerusakan Hardware Komputer menggunakan metode forward chaining
+<b>Sistem Pakar untuk Diagnosa kerusakan Hardware Komputer menggunakan metode forward chaining</b>
+<br>  
 
-
-#create database db_kerusakan 
+<b>Install Project </b><br>  
+#create database db_kerusakan <br>
 #import database db_kerusakan.sql from folder database to database db_kerusakan
