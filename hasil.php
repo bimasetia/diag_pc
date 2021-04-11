@@ -5,37 +5,45 @@
     window.print();
   }
 </script>
-<h1>Hasil Diagnosa</h1><br>
+
 <div class="container">
-  <button style="float:right;" class="btn btn-success" onclick="myFunction()">CETAK</button>
+  <h4>Hasil Diagnosa</h4>
 </div>
 <div class="container col-6">
-  <div class="input-group mb-3">
-    <div class="input-group-prepend">
-      <span class="input-group-text">
-        <h5>KERUSAKAN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5>
-      </span>
+<button style="float:right;" class="btn btn-success" onclick="myFunction()">CETAK</button>
+  <div class="row">
+    <div class="col s12 ">
+      <div class="card blue ">
+        <div class="card-content white-text">
+          <span class="card-title"><b> KERUSAKAN</b></span>
+          <p><?php echo "$kerusakan"; ?></p>
+        </div>
+      </div>
     </div>
-    <textarea class="form-control" rows="2" readonly><?php echo "$kerusakan"; ?></textarea>
   </div>
 
-  <div class="input-group mb-3">
-    <div class="input-group-prepend">
-      <span class="input-group-text">
-        <h5>INFO KERUSAKAN&nbsp;&nbsp;&nbsp;</h5>
-      </span>
+  <div class="row">
+    <div class="col s12 ">
+      <div class="card blue-grey ">
+        <div class="card-content white-text">
+          <span class="card-title"><b>INFO KERUSAKAN</b></span>
+          <p><?php echo "$info"; ?></p>
+        </div>
+      </div>
     </div>
-    <textarea class="form-control" rows="6" readonly><?php echo "$info"; ?></textarea>
   </div>
 
-  <div class="input-group mb-3">
-    <div class="input-group-prepend">
-      <span class="input-group-text">
-        <h5>SOLUSI KERUSAKAN</h5>
-      </span>
+  <div class="row">
+    <div class="col s12 ">
+      <div class="card green ">
+        <div class="card-content white-text">
+          <span class="card-title"><b>SOLUSI</b></span>
+          <p><?php echo "$solusi"; ?></p>
+        </div>
+      </div>
     </div>
-    <textarea class="form-control" rows="6" readonly><?php echo "$solusi"; ?> </textarea>
   </div>
+
   <a type="button" class="btn btn-primary btn-lg btn-block" name="submit" href="index.php">DIAGNOSA ULANG</a>
-  
+
 </div>

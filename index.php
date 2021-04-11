@@ -3,5 +3,5 @@ include 'header.php';
 ?>
 <br>
 <?php
-include 'pil_gejala.php';
+include 'option_gejala.php';
  ?>
